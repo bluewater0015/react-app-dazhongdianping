@@ -1,0 +1,27 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.left_float{
+	float: left;
+}
+.right_float{
+	float: right;
+}
+.clear_fix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
